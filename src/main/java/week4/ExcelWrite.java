@@ -45,7 +45,7 @@ public class ExcelWrite {
 				sheet.getRow(i).createCell(2).setCellValue("Pass");
 			}
 		}
-		
+		System.out.println("sample");
 		FileOutputStream file = new FileOutputStream(new File("./data/sample1.xlsx"));
 		wbook.write(file);
 		wbook.close();
