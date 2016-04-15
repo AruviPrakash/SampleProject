@@ -258,5 +258,38 @@ public class Wrapper extends ExcelWrapper{
 		}
 		
 	}
+	
+	public String Capturetext(String typename,String Element)
+	{
+		String value = null;
+		try {
+			
+			if(typename.equals("id"))       {
+				 value= driver.findElement(By.id(Element)).getText();
+				}
+			else if(typename.equals("name"))	{	
+				 value= driver.findElement(By.name(Element)).getText();}
+			else if(typename.equals("className"))	{	
+				 value= driver.findElement(By.className(Element)).getText();}
+			else if (typename.equals("xpath"))	{	
+				 value= driver.findElement(By.xpath(Element)).getText();}
+			else if (typename.equals("cssSelector"))	{	
+				 value= driver.findElement(By.cssSelector(Element)).getText();}
+			else if (typename.equals("linkText"))	{	
+				 value= driver.findElement(By.linkText(Element)).getText();}
+			
+			//return value;
+		} 
+		catch (NoSuchElementException e) {
+			System.out.println("Element was not found on page");
+		}
+		System.out.println(value);
+		return value;
+	}
+	
+	public void closeBrowser()
+	{
+		driver.quit();
+	}
 }
 
