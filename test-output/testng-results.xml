@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="9" failed="0" total="9" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="790" started-at="2016-04-21T20:03:30Z" finished-at="2016-04-21T20:03:31Z">
+    <groups>
+      <group name="smoke">
+        <method signature="CreateLead.creatinglead(java.lang.String)[pri:0, instance:opentapshw.CreateLead@108b2d7]" name="creatinglead" class="opentapshw.CreateLead"/>
+        <method signature="CreateContact.createcontact()[pri:0, instance:opentapshw.CreateContact@43840]" name="createcontact" class="opentapshw.CreateContact"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="DeleteLead.deletelead()[pri:0, instance:opentapshw.DeleteLead@6776ad]" name="deletelead" class="opentapshw.DeleteLead"/>
+        <method signature="EditLead.editleads()[pri:0, instance:opentapshw.EditLead@154909b]" name="editleads" class="opentapshw.EditLead"/>
+        <method signature="MergeLead.mergeleads()[pri:0, instance:opentapshw.MergeLead@cd8737]" name="mergeleads" class="opentapshw.MergeLead"/>
+        <method signature="MergeLead.mergeleads()[pri:0, instance:week5opentapstestng.MergeLead@f71333]" name="mergeleads" class="week5opentapstestng.MergeLead"/>
+        <method signature="DeleteContact.deletecontact()[pri:0, instance:opentapshw.DeleteContact@1624da6]" name="deletecontact" class="opentapshw.DeleteContact"/>
+        <method signature="EditContact.editcontact()[pri:0, instance:opentapshw.EditContact@115b42e]" name="editcontact" class="opentapshw.EditContact"/>
+        <method signature="MergeContact.mergecontact()[pri:0, instance:opentapshw.MergeContact@6ae04d]" name="mergecontact" class="opentapshw.MergeContact"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Testmy" duration-ms="753" started-at="2016-04-21T20:03:30Z" finished-at="2016-04-21T20:03:31Z">
+      <class name="week5opentapstestng.MergeLead">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:week5opentapstestng.MergeLead@f71333]" name="beforeClass" is-config="true" duration-ms="6" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:week5opentapstestng.MergeLead@f71333]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="SKIP" signature="mergeleads()[pri:0, instance:week5opentapstestng.MergeLead@f71333]" name="mergeleads" duration-ms="0" depends-on-groups="smoke" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method MergeLead.mergeleads()[pri:0, instance:week5opentapstestng.MergeLead@f71333] depends on not successfully finished methods in group "smoke"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method MergeLead.mergeleads()[pri:0, instance:week5opentapstestng.MergeLead@f71333] depends on not successfully finished methods in group "smoke"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeleads -->
+      </class> <!-- week5opentapstestng.MergeLead -->
+      <class name="opentapshw.MergeLead">
+        <test-method status="SKIP" signature="beforeClass(java.lang.String)[pri:0, instance:opentapshw.MergeLead@cd8737]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="mergeleads()[pri:0, instance:opentapshw.MergeLead@cd8737]" name="mergeleads" duration-ms="0" depends-on-groups="smoke" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method MergeLead.mergeleads()[pri:0, instance:opentapshw.MergeLead@cd8737] depends on not successfully finished methods in group "smoke"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method MergeLead.mergeleads()[pri:0, instance:opentapshw.MergeLead@cd8737] depends on not successfully finished methods in group "smoke"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeleads -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:opentapshw.MergeLead@cd8737]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- opentapshw.MergeLead -->
+      <class name="opentapshw.CreateLead">
+        <test-method status="FAIL" signature="beforeClass(java.lang.String)[pri:0, instance:opentapshw.CreateLead@108b2d7]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-04-22T01:33:30Z" finished-at="2016-04-22T01:33:30Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method beforeClass requires 1 parameters but 0 were supplied in the @Configuration annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method beforeClass requires 1 parameters but 0 were supplied in the @Configuration annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:191)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:127)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:376)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:197)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="creatinglead(java.lang.String)[pri:0, instance:opentapshw.CreateLead@108b2d7]" name="creatinglead" duration-ms="0" started-at="2016-04-22T01:33:31Z" data-provider="mydata" finished-at="2016-04-22T01:33:31Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NegativeArraySizeException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NegativeArraySizeException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:162)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1269)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: java.lang.NegativeArraySizeException
+	at opentapshw.OpenTapsWrapper.getExcelData(OpenTapsWrapper.java:65)
+	at opentapshw.OpenTapsWrapper.getdata(OpenTapsWrapper.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:136)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatinglead -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:opentapshw.CreateLead@108b2d7]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- opentapshw.CreateLead -->
+      <class name="opentapshw.DeleteLead">
+        <test-method status="SKIP" signature="beforeClass(java.lang.String)[pri:0, instance:opentapshw.DeleteLead@6776ad]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="deletelead()[pri:0, instance:opentapshw.DeleteLead@6776ad]" name="deletelead" duration-ms="0" depends-on-groups="smoke" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method DeleteLead.deletelead()[pri:0, instance:opentapshw.DeleteLead@6776ad] depends on not successfully finished methods in group "smoke"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method DeleteLead.deletelead()[pri:0, instance:opentapshw.DeleteLead@6776ad] depends on not successfully finished methods in group "smoke"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletelead -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:opentapshw.DeleteLead@6776ad]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- opentapshw.DeleteLead -->
+      <class name="opentapshw.EditLead">
+        <test-method status="SKIP" signature="beforeClass(java.lang.String)[pri:0, instance:opentapshw.EditLead@154909b]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="editleads()[pri:0, instance:opentapshw.EditLead@154909b]" name="editleads" duration-ms="0" depends-on-groups="smoke" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method EditLead.editleads()[pri:0, instance:opentapshw.EditLead@154909b] depends on not successfully finished methods in group "smoke"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method EditLead.editleads()[pri:0, instance:opentapshw.EditLead@154909b] depends on not successfully finished methods in group "smoke"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editleads -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:opentapshw.EditLead@154909b]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- opentapshw.EditLead -->
+    </test> <!-- Testmy -->
+    <test name="Testmy2" duration-ms="13" started-at="2016-04-21T20:03:31Z" finished-at="2016-04-21T20:03:31Z">
+      <class name="opentapshw.MergeContact">
+        <test-method status="SKIP" signature="beforeClass(java.lang.String)[pri:0, instance:opentapshw.MergeContact@6ae04d]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:opentapshw.MergeContact@6ae04d]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="SKIP" signature="mergecontact()[pri:0, instance:opentapshw.MergeContact@6ae04d]" name="mergecontact" duration-ms="0" depends-on-groups="smoke" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method MergeContact.mergecontact()[pri:0, instance:opentapshw.MergeContact@6ae04d] depends on not successfully finished methods in group "smoke"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method MergeContact.mergecontact()[pri:0, instance:opentapshw.MergeContact@6ae04d] depends on not successfully finished methods in group "smoke"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergecontact -->
+      </class> <!-- opentapshw.MergeContact -->
+      <class name="opentapshw.CreateContact">
+        <test-method status="FAIL" signature="beforeClass(java.lang.String)[pri:0, instance:opentapshw.CreateContact@43840]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method beforeClass requires 1 parameters but 0 were supplied in the @Configuration annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method beforeClass requires 1 parameters but 0 were supplied in the @Configuration annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:191)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:127)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:376)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:197)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="createcontact()[pri:0, instance:opentapshw.CreateContact@43840]" name="createcontact" duration-ms="1" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontact -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:opentapshw.CreateContact@43840]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:opentapshw.CreateContact@43840]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:opentapshw.CreateContact@43840]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- opentapshw.CreateContact -->
+      <class name="opentapshw.EditContact">
+        <test-method status="SKIP" signature="beforeClass(java.lang.String)[pri:0, instance:opentapshw.EditContact@115b42e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:opentapshw.EditContact@115b42e]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="SKIP" signature="editcontact()[pri:0, instance:opentapshw.EditContact@115b42e]" name="editcontact" duration-ms="0" depends-on-groups="smoke" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method EditContact.editcontact()[pri:0, instance:opentapshw.EditContact@115b42e] depends on not successfully finished methods in group "smoke"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method EditContact.editcontact()[pri:0, instance:opentapshw.EditContact@115b42e] depends on not successfully finished methods in group "smoke"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editcontact -->
+      </class> <!-- opentapshw.EditContact -->
+      <class name="opentapshw.DeleteContact">
+        <test-method status="SKIP" signature="deletecontact()[pri:0, instance:opentapshw.DeleteContact@1624da6]" name="deletecontact" duration-ms="0" depends-on-groups="smoke" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method DeleteContact.deletecontact()[pri:0, instance:opentapshw.DeleteContact@1624da6] depends on not successfully finished methods in group "smoke"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method DeleteContact.deletecontact()[pri:0, instance:opentapshw.DeleteContact@1624da6] depends on not successfully finished methods in group "smoke"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecontact -->
+        <test-method status="SKIP" signature="beforeClass(java.lang.String)[pri:0, instance:opentapshw.DeleteContact@1624da6]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:opentapshw.DeleteContact@1624da6]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-04-22T01:33:31Z" finished-at="2016-04-22T01:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- opentapshw.DeleteContact -->
+    </test> <!-- Testmy2 -->
+  </suite> <!-- Suite -->
+</testng-results>

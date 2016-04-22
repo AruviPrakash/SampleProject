@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <groups>
+<run>
+<include name="s.*"> </include>
+</run>
+</groups>
+  <test name="Testmy">
+  <parameter name="browser" value="chrome"> </parameter>
+    <classes>
+      <class name="week5opentapstestng.DeleteLead"/>
+      <class name="week5opentapstestng.CreateLead"/>
+      <class name="week5opentapstestng.EditLead"/>
+      <class name="week5opentapstestng.MergeLead"/>
+    </classes>
+  </test> <!-- Testmy -->
+  
+  <test name="Testmy2">
+  <parameter name="browser" value="firefox"> </parameter>
+    <classes>
+      <class name="week5opentapstestng.CreateContact"/>
+      <class name="week5opentapstestng.MergeContact"/>
+      <class name="week5opentapstestng.EditContact"/>
+      <class name="week5opentapstestng.DeleteContact"/>
+    </classes>
+  </test> <!-- Testmy -->
+</suite> <!-- Suite -->

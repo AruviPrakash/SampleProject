@@ -31,11 +31,10 @@ public class Erailnew extends Wrapper {
 		driver.findElementById("txtStationFrom").sendKeys("MAS",Keys.TAB);
 		driver.findElementById("txtStationTo").sendKeys("ERS",Keys.TAB);
 		
-		WebElement traintable = driver.findElementByClassName("DataTable DataTableHeader TrainList");
+		WebElement traintable = driver.findElementByClassName("DataTable TrainList");
 				//(By.className("DataTable DataTableHeader TrainList"));
 		List<WebElement> allrows =  traintable.findElements(By.tagName("tr"));
 		int rows= allrows.size();
-		
 		XSSFWorkbook wbook = new XSSFWorkbook();
 		XSSFSheet sheet = wbook.createSheet("webtable");
 		
@@ -57,6 +56,16 @@ public class Erailnew extends Wrapper {
 		}
 		FileOutputStream file = new FileOutputStream(new File("./data/sampletrain.xlsx"));
 		wbook.write(file);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		wbook.close();
 		
 		

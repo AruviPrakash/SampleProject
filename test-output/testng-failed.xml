@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test name="Testmy(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="s.*"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="week5opentapstestng.MergeLead">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="mergeleads"/>
+        </methods>
+      </class> <!-- week5opentapstestng.MergeLead -->
+      <class name="opentapshw.CreateLead">
+        <methods>
+          <include name="creatinglead"/>
+        </methods>
+      </class> <!-- opentapshw.CreateLead -->
+      <class name="opentapshw.DeleteLead">
+        <methods>
+          <include name="deletelead"/>
+        </methods>
+      </class> <!-- opentapshw.DeleteLead -->
+      <class name="opentapshw.MergeLead">
+        <methods>
+          <include name="mergeleads"/>
+        </methods>
+      </class> <!-- opentapshw.MergeLead -->
+      <class name="opentapshw.EditLead">
+        <methods>
+          <include name="editleads"/>
+        </methods>
+      </class> <!-- opentapshw.EditLead -->
+    </classes>
+  </test> <!-- Testmy(failed) -->
+  <test name="Testmy2(failed)">
+    <parameter name="browser" value="firefox"/>
+    <groups>
+      <run>
+        <include name="s.*"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="week5opentapstestng.MergeLead">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- week5opentapstestng.MergeLead -->
+      <class name="opentapshw.CreateContact">
+        <methods>
+          <include name="createcontact"/>
+        </methods>
+      </class> <!-- opentapshw.CreateContact -->
+      <class name="opentapshw.MergeContact">
+        <methods>
+          <include name="mergecontact"/>
+        </methods>
+      </class> <!-- opentapshw.MergeContact -->
+      <class name="opentapshw.EditContact">
+        <methods>
+          <include name="editcontact"/>
+        </methods>
+      </class> <!-- opentapshw.EditContact -->
+      <class name="opentapshw.DeleteContact">
+        <methods>
+          <include name="deletecontact"/>
+        </methods>
+      </class> <!-- opentapshw.DeleteContact -->
+    </classes>
+  </test> <!-- Testmy2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

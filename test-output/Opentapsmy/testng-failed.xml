@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Opentapsmy]">
+  <test name="Testmy(failed)">
+    <classes>
+      <class name="week5opentapstestng.DeleteContact">
+        <methods>
+          <include name="deletecontact"/>
+        </methods>
+      </class> <!-- week5opentapstestng.DeleteContact -->
+      <class name="week5opentapstestng.EditContact">
+        <methods>
+          <include name="editcontact"/>
+        </methods>
+      </class> <!-- week5opentapstestng.EditContact -->
+      <class name="week5opentapstestng.MergeLead">
+        <methods>
+          <include name="mergeleads"/>
+        </methods>
+      </class> <!-- week5opentapstestng.MergeLead -->
+      <class name="week5opentapstestng.DeleteLead">
+        <methods>
+          <include name="deletelead"/>
+        </methods>
+      </class> <!-- week5opentapstestng.DeleteLead -->
+      <class name="week5opentapstestng.MergeContact">
+        <methods>
+          <include name="mergecontact"/>
+        </methods>
+      </class> <!-- week5opentapstestng.MergeContact -->
+      <class name="week5opentapstestng.CreateLead">
+        <methods>
+          <include name="creatinglead"/>
+        </methods>
+      </class> <!-- week5opentapstestng.CreateLead -->
+      <class name="week5opentapstestng.EditLead">
+        <methods>
+          <include name="editleads"/>
+        </methods>
+      </class> <!-- week5opentapstestng.EditLead -->
+      <class name="week5opentapstestng.CreateContact">
+        <methods>
+          <include name="createcontact"/>
+        </methods>
+      </class> <!-- week5opentapstestng.CreateContact -->
+    </classes>
+  </test> <!-- Testmy(failed) -->
+</suite> <!-- Failed suite [Opentapsmy] -->
